@@ -52,4 +52,4 @@ Base91::decodeHex('fiGv9N=Y+[,*taK{GHUSo/fsI');
 ```
 
 ## License
-MIT License (MIT). Please see [License File](https://github.com/axpwx/base91/blob/master/LICENSE) for more information.
+MIT License (MIT). Please see [License File](https://github.com/axpwx/base91/blob/main/LICENSE) for more information.
