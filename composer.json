@@ -1,0 +1,26 @@
+{
+  "name": "axpwx/base91",
+  "type": "library",
+  "description": "A PHP implementation of Base91 as described on https://base91.sourceforge.net/",
+  "license": "MIT",
+  "keywords": ["base91","shorten hex"],
+  "homepage": "https://github.com/axpwx/base91",
+  "authors": [
+    {
+      "name": "Axpwx",
+      "email": "axpwx@163.com",
+      "role": "Owner"
+    }
+    ],
+    "support": {
+        "issues": "https://github.com/axpwx/base91/issues"
+    },
+    "require": {
+      "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Axpwx\\Base91\\": "src/"
+        }
+    }
+}
