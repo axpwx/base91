@@ -30,18 +30,18 @@ Base91::decode('toX<5+UCmUW6GFso^zZ2(.A');
 //=> encode this string
 ```
 
-## 编码16进制字符串
+### 编码16进制字符串
 
 ```php
 <?php
 use Axpwx\Base91;
 
+//待编码的16进制字符串支持负数，支持非偶数前缀补0
 Base91::encodeHex('356c1772936a14d19df15ae2f48342cf6ce8e187');
 //=> fiGv9N=Y+[,*taK{GHUSo/fsI
-//待编码的16进制字符串支持负数，支持非偶数前缀补0
 ```
 
-## 解码16进制字符串
+### 解码16进制字符串
 
 ```php
 <?php
